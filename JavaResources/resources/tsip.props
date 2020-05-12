@@ -1,0 +1,78 @@
+## CDR database
+cdrDb=jdbc:mysql://localhost/cdr
+cdrUsername=****
+cdrPassword=****
+
+## Customer database
+customerDb=jdbc:mysql://localhost/customers
+customerUsername=****
+customerPassword=****
+
+## FOS
+fosDb=jdbc:mysql://localhost/fos
+fosUsername=****
+fosPassword=****
+fosUrl=/opt/tsip/sounds/fos/
+
+## POSTCODE database
+postcodeDb=jdbc:mysql://localhost/postcode
+postcodeUsername=****
+postcodePassword=****
+
+## PREPAID database
+prepaidDb=jdbc:mysql://localhost/prepaid_account
+prepaidUsername=****
+prepaidPassword=****
+
+## PREPAID URL
+prepaidApiUrl=https://api.****.**/api/tsip
+prepaidUserStatus=/user-status
+prepaidApiCancel=/delete
+prepaidPaymentUrl=****.**
+
+## VIANOR database
+vianorDb=jdbc:mysql://localhost/vianor
+vianorUsername=****
+vianorPassword=****
+vianorDirectNr=****
+vianorAdminNr=****
+
+## SOUNDS
+dimUrl=/opt/tsip/sounds/dim/
+diaUrl=/opt/tsip/sounds/dia/
+digitsUrl=/opt/tsip/sounds/digits/
+numbersUrl=/opt/tsip/sounds/numbers/
+numberWordsUrl=/opt/tsip/sounds/number_words/
+tonesUrl=/opt/tsip/sounds/tones/
+wordsUrl=/opt/tsip/sounds/words/
+
+## RECORDING
+recUrl=/var/spool/asterisk/recording/
+
+## WEBSOCKET
+webSocket=ws://**.**.**.**:8088/ari/events?api_key=asterisk:asterisk&app=tsip
+
+## ASTERISK
+astDiallingPrefix=SIP/p-sbc01/
+astLocalPrefix=local/
+astAddr=**.**.**.**:8088
+astURL=http://**.**.**.**:8088/
+astUser=****
+astPass=****
+
+## ACTIVEMQ
+#amqAddr=**.**.**.**:61616
+amqAddr=localhost:61616
+
+## SEND MAIL
+mailUrl=****
+mailUser=****
+mailPassword=****
+
+## MONITORING
+busyCallThreshold=5
+noAnswerThreshold=5
+monitoringEmails=****@****.**
+
+
+
